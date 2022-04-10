@@ -32,13 +32,16 @@ End the program and close the output image windows.
 
 
 ## Program:
+```
+
+Developed By: Monisha T
+Register Number: 212221240029
 
 ```
 
-## Developed By: Monisha T
-## Register Number: 212221240029
-
 # i) Convert BGR and RGB to HSV and GRAY
+
+```
 
 import cv2
 house_color_image = cv2.imread('image.jpeg')
@@ -50,8 +53,12 @@ cv2.imshow('RGB2GRAY', gray_image1)
 cv2.waitKey(0)
 cv2. destroyAllWindows()
 
+```
+
 
 # ii)Convert HSV to RGB and BGR
+
+```
 
 import cv2
 girl_color_image = cv2.imread('image.jpeg')
@@ -63,8 +70,12 @@ cv2.imshow( 'HSV2BGR', gray_image)
 cv2.waitKey(0)
 cv2. destroyAllWindows()
 
+```
+
 
 # iii)Convert RGB and BGR to YCrCb
+
+```
 
 import cv2
 house_color_image = cv2.imread('image.jpeg')
@@ -76,8 +87,12 @@ cv2.imshow( 'BGR2YCrCb', gray_image)
 cv2.waitKey(0)
 cv2. destroyAllWindows()
 
+```
+
 
 # iv)Split and Merge RGB Image
+
+```
 
 import cv2
 image = cv2.imread('image.jpeg')
@@ -92,8 +107,12 @@ cv2.imshow('Merged BGR Image',Merged_BGR)
 cv2.waitKey(0)
 cv2.destoryAllWindows()
 
+```
+
 
 # v) Split and merge HSV Image
+
+```
 
 import cv2
 image = cv2.imread('image.jpeg')
@@ -106,8 +125,7 @@ Merged_HSV = cv2.merge((h,s,v))
 cv2.imshow('Merged HSV Image',Merged_HSV)
 cv2.waitKey(0)
 cv2.destoryAllWindows()
-
-
+S
 ```
 ## Output:
 
